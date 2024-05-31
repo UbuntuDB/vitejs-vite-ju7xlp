@@ -1,11 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import ProductList from './Components/ProductList';
-import Cart from './Components/Cart';
-import Login from './Components/Login';
-import Register from './Components/Register';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import ProductList from './components/ProductList';
+import Cart from './components/Cart';
+import Login from './components/Login';
+import Register from './components/Register';
+import "./App.css";
 
 const App = () => {
   return (
