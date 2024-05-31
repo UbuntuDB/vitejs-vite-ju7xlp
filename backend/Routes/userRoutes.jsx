@@ -17,7 +17,7 @@ router.post('/login', async (req, res) => {
   if (user && user.password === password) {
     res.send(user);
   } else {
-    res.status(401).send({ message: 'Invalid email or password' });
+    res.status(401).send({ message: 'Email o contraseña incorrectos' });
   }
 });
 
